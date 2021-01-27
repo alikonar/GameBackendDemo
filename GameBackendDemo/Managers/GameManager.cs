@@ -10,7 +10,8 @@ namespace GameBackendDemo.Managers
     {
         public void BonusMoney(Customer customer, Game game)
         {
-            Console.WriteLine(customer.NickName+">>"+game.GameName+" oyunu satın alarak 10 bonus money kazandı");
+            Console.WriteLine("-------");
+            Console.WriteLine(customer.NickName+">> "+game.GameName+" oyunu satın alarak 10 bonus money kazandı");
         }
 
         public void BuyGame(Customer customer,Game game)

@@ -99,6 +99,7 @@ namespace GameBackendDemo
             
             gameManager.BuyGame(customer2, game2);
             gameManager.RebateGame(game5,customer4);
+            gameManager.BonusMoney(customer1, game1);
 
 
 
